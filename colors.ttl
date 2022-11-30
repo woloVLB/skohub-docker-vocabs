@@ -17,11 +17,12 @@ colour:violet a skos:Concept ;
 
 colour:green a skos:Concept ;
     skos:prefLabel "Griiiiiiiiin"@de, "green"@en ;
+    skos:narrower colour:schönbrunngrün ;
     skos:topConceptOf colour: .
 
 colour:schönbrunngrün a skos:Concept ;
     skos:prefLabel "schönbrunngrün"@de, "green schönbrunn style"@en ;
-    skos:narrower colour:green ;
+    skos:broader colour:green ;
     skos:topConceptOf colour: .
 
 colour:rötlich a skos:Concept ;
