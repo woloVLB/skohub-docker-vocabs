@@ -1,17 +1,19 @@
 {
-  "id": "https://example.org/colour/green",
+  "id": "https://example.org/colour/schönbrunngrün",
   "type": "Concept",
   "prefLabel": {
-    "en": "green",
-    "de": "Griiiiiiiiin"
+    "en": "green schönbrunn style",
+    "de": "schönbrunngrün"
   },
-  "broader": {
-    "id": "https://example.org/colour/schönbrunngrün",
-    "prefLabel": {
-      "en": "green schönbrunn style",
-      "de": "schönbrunngrün"
+  "narrower": [
+    {
+      "id": "https://example.org/colour/green",
+      "prefLabel": {
+        "en": "green",
+        "de": "Griiiiiiiiin"
+      }
     }
-  },
+  ],
   "inScheme": {
     "id": "https://example.org/colour/",
     "title": {

@@ -5,6 +5,13 @@
     "en": "green",
     "de": "Griiiiiiiiin"
   },
+  "broader": {
+    "id": "https://example.org/colour/schönbrunngrün",
+    "prefLabel": {
+      "en": "green schönbrunn style",
+      "de": "schönbrunngrün"
+    }
+  },
   "inScheme": {
     "id": "https://example.org/colour/",
     "title": {
