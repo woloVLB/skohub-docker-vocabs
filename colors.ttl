@@ -8,7 +8,7 @@ colour: a skos:ConceptScheme ;
     dct:creator "Hans Dampf"@de ;
     dct:created "2021-11-02"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept colour:violet, colour:green, colour:rötlich .
+    skos:hasTopConcept colour:violet, colour:green, colour:rötlich, colour:schönbrunngrün .
 
 colour:violet a skos:Concept ;
     skos:prefLabel "Violett"@de, "violet"@en ;
@@ -17,6 +17,11 @@ colour:violet a skos:Concept ;
 
 colour:green a skos:Concept ;
     skos:prefLabel "Griiiiiiiiin"@de, "green"@en ;
+    skos:topConceptOf colour: .
+
+colour:schönbrunngrün a skos:Concept ;
+    skos:prefLabel "schönbrunngrün"@de, "green schönbrunn style"@en ;
+    skos:narrower colour:green ;
     skos:topConceptOf colour: .
 
 colour:rötlich a skos:Concept ;
